@@ -31,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `lix_description` (
   `ref` varchar(45) NOT NULL,
   `description` longtext
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `lix_description`
